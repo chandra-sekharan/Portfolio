@@ -1,0 +1,79 @@
+.skills{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-color:black;
+    background-repeat: no-repeat;
+    opacity: 1;
+    transition: all 0.4s ease;
+}
+.skills .skill-card{
+    position: relative;
+    top: 40px;
+    width: 50%;
+    height:90%;
+    background: rgba(82, 203, 240, 0.16);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.7px);
+    -webkit-backdrop-filter: blur(3.7px);
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    margin: auto;
+}
+.section{
+    position: relative;
+    margin-top: -70px;
+    width: 100%;
+    height: 80%;
+}
+.skill{
+    margin-top: 5px;
+}
+.skill-name svg{
+    position: relative;
+    left: 0px;
+    top: 29px;
+}
+.skill-name img{
+    position: relative;
+    left: 0;
+    top: 29px;
+    left: 20px;
+}
+.skill-bar{
+    position: relative;
+    width: 80%;
+    left: 60px;
+    height: 20px;
+    background: rgb(82, 81, 81);
+    border-radius: 1px;
+}
+.skill-per{
+    position: relative;
+    height: 20px;
+    background:linear-gradient(to right,rgb(6, 245, 173),rgb(10, 198, 255));
+    border-radius: 1px;
+    animation:fillbars 7s 1;
+}
+
+.skill span{
+    margin-top: -4px;
+    margin-right: 20px;
+    float: right;
+    color: #0cf1ac;
+}
+.skill-card h1{
+    line-height: 150px;
+    text-align: center;
+    background:linear-gradient(to bottom,rgb(7, 252, 199),rgb(28, 211, 243));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+@keyframes fillbars{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
