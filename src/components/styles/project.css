@@ -27,6 +27,7 @@
     width: 90%;
     height: 80%;
     margin: auto;
+    animation: project 0.4s linear;
 }
 .project-display{
     display: inline-block;

@@ -13,11 +13,14 @@ body{
 
 /*************main*************/
 .main{
+    position: fixed;
     width: 100%;
-    height: 100vh;
-    overflow-y:scroll;
+    height:100%;
+    overflow-y:auto;
   }
-
+  .main::-webkit-scrollbar{
+    display: none;
+  }
   
 /*****************About section***************/
 .About{
@@ -45,3 +48,48 @@ p{
 }
 
 
+@media only screen and (max-width:1054px){
+    
+    h4{
+        font-size:20px !important;
+    }
+    h3{
+        font-size: 23px !important;
+    }
+    .title h1{
+        font-size: 40px !important;
+    }
+    label{
+        font-size: 13px !important;
+    }
+}
+@media only screen and (max-width:950px){
+   label{
+    font-size: 12px !important;
+   }
+}
+@media only screen and (max-width:1062px){
+     label{
+        font-size: 13px !important;
+     }
+}
+@media only screen and (max-width:1072px){
+    label{
+       font-size: 13px !important;
+    }
+}
+@media only screen and (max-width:868px){
+    label{
+       font-size: 12px !important;
+    }
+}
+@media only screen and (max-width:868px){
+    label{
+       font-size: 10px !important;
+    }
+}
+@media only screen and (max-width:744px){
+    label{
+       font-size: 10px !important;
+    }
+}
