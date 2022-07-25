@@ -2,8 +2,9 @@ import React from "react";
 import './styles/skill.css';
 
 const Skills = () =>{
+    
     return(
-        <div className="skills" id="skills">
+        <div className="skills" id="skills"  >
          <div className="skill-card">
             <h1>Technical-Skills</h1>
             <div className="section">

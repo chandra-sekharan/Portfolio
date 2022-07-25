@@ -7,11 +7,14 @@ import About from './About';
 import Loader from './Loader';
 
 const App = () => {
+  const trigger = ()=>{
+    document.getElementsByClassName("skill-card")[0].style.display="block";
+  }
   return (
-    <div className="main">
+    <div className="main" onScroll={trigger}>
     <Home/>
     <Skills/>
-    <Project />
+    <Project/>
     <About/>
     </div>
     );

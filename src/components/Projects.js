@@ -7,7 +7,7 @@ import notes from './images/notes.png';
 
 const Project = ()=>{
     return(
-        <div className="projects">
+        <div className="projects" id="projects">
         <h1>My Projects</h1>
        <div className="project-section">
             <div className="project-display">            
