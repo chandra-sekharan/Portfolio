@@ -17,7 +17,9 @@ body{
     height: 100vh;
     overflow-y:scroll;
   }
-
+.main::-webkit-scrollbar{
+    display: none;
+  }
   
 /*****************About section***************/
 .About{
