@@ -7,7 +7,7 @@
 }
 body{
     background-color: #d9d9d9;
-    scroll-behavior: auto;
+    scroll-behavior:smooth;
     overflow: auto;
 }
 
@@ -18,6 +18,7 @@ body{
     height:100%;
     overflow-y:auto;
     background-color: black;
+    scroll-behavior:smooth;
   }
   .main::-webkit-scrollbar{
     display: none;
@@ -44,9 +45,11 @@ p{
     color: white;
     text-align: center;
 }
-.para p a{
+.para p span{
     color:#0cf1ad;
 }
+
+/* Media queries for responsive */
 
 @media screen and (min-width: 705px) and (max-width: 1078px) { 
        
@@ -72,7 +75,11 @@ p{
         display: none;
       }
    .menu ul{
-    width: 108%;
+    position: relative;
+    top: 20px;
+    left: 0px !important;
+    width: 100%;
+    padding-bottom:25px ;
     display:grid;
     float: left !important;
     font-size: 13px !important;
@@ -82,7 +89,7 @@ p{
    .menu{
     position: absolute !important;
     width: 100%;
-    height: 40% !important;
+    height: 45% !important;
     z-index: 999;
     transition: all 0.5s ease;
     background-color:  rgba(167, 167, 167, 0.986);
@@ -96,9 +103,10 @@ p{
    .menu ul li {
     position: relative;
     text-transform: uppercase;
-    top: 30px !important;
+    top: 5px !important;
     text-align: center;
-    margin-top: -30px ;
+    margin-top: -10px ;
+    margin-left: -20px !important;
     height: 80px !important;
    }
    a{
@@ -150,8 +158,9 @@ p{
     font-size: 24px !important;
  }
  .title h1{
-    color: white !important;
+     color: white !important;
      font-size: 35px !important;
+     width: 73% !important;
  }
  label{
     left: -12px;
@@ -199,7 +208,28 @@ p{
  }
  .About{
     position: relative;
-    top: 30px !important;
+    top: 100px !important;
  }
- 
+ .About p{
+   font-size: 23px ;
+   font-weight: 500;
+ }
+ .About p span{
+   color: #0cf1ad !important;
+ }
+ h6{
+   line-height: 50px !important;
+   font-size: 20px;
+   text-align: center;
+   color: white;
+ }
+ h6 a {
+   text-decoration: none;
+   color: white !important;
+ }
+ .pro-name{
+   height: 50px;
+   border: 1px solid white;
+   border-radius: 6px ;
+ }
 }

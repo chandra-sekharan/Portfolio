@@ -13,29 +13,41 @@ const Project = ()=>{
             <div className="project-display">            
                 <img src={movie} alt=""  />
                 <div className="git">
-                    <h5>Git URL <a href="https://github.com/chandra-sekharan/MovieFlix" target="_blank">link</a></h5>
-                    <h5>Deploy URL <a href="https://www.movieflix-cs.ml/" target="_blank">link</a></h5>
+                    <h5>Git URL <a href="https://github.com/chandra-sekharan/MovieFlix" target="_blank" rel="noreferrer">link</a></h5>
+                    <h5>Deploy URL <a href="https://www.movieflix-cs.ml/" target="_blank" rel="noreferrer">link</a></h5>
+                </div>
+                <div className="pro-name">
+                    <h6><a href="https://www.movieflix-cs.ml/" target="_blank" rel="noreferrer">MovieFlix</a></h6>
                 </div>
             </div>
             <div className="project-display">
                 <img src={spotify} alt="" className="otherimages1" />
                 <div className="git">
-                    <h5>Git URL <a href="https://github.com/chandra-sekharan/spotify-react" target="_blank">link</a></h5>
-                    <h5>Deploy URL <a href="https://spotify-react-cs.herokuapp.com/" target="_blank">link</a></h5>
+                    <h5>Git URL <a href="https://github.com/chandra-sekharan/spotify-react" target="_blank" rel="noreferrer">link</a></h5>
+                    <h5>Deploy URL <a href="https://spotify-react-cs.herokuapp.com/" target="_blank" rel="noreferrer">link</a></h5>
+                </div>
+                <div className="pro-name">
+                    <h6> <a href="https://spotify-react-cs.herokuapp.com/" target="_blank" rel="noreferrer">Spotify</a></h6>
                 </div>
             </div>
             <div className="project-display">
                 <img src={weather} alt="" className="otherimages" />
                 <div className="git">
-                    <h5>Git URL <a href="https://github.com/chandra-sekharan/weatherApp" target="_blank">link</a></h5>
-                    <h5>Deploy URL <a href="https://weather-app-cs.herokuapp.com/" target="_blank">link</a></h5>
+                    <h5>Git URL <a href="https://github.com/chandra-sekharan/weatherApp" target="_blank" rel="noreferrer">link</a></h5>
+                    <h5>Deploy URL <a href="https://weather-app-cs.herokuapp.com/" target="_blank" rel="noreferrer">link</a></h5>
+                </div>
+                <div className="pro-name">
+                    <h6><a href="https://weather-app-cs.herokuapp.com/" target="_blank" rel="noreferrer">Weather</a></h6>
                 </div>
             </div>
             <div className="project-display">
                 <img src={notes} alt="" className="otherimages" />
                 <div className="git">
-                    <h5>Git URL <a href="https://github.com/chandra-sekharan/notes" target="_blank">link</a></h5>
-                    <h5>Deploy URL <a href="https://cs-notes-app.herokuapp.com/" target="_blank">link</a></h5>
+                    <h5>Git URL <a href="https://github.com/chandra-sekharan/notes" target="_blank" rel="noreferrer">link</a></h5>
+                    <h5>Deploy URL <a href="https://cs-notes-app.herokuapp.com/" target="_blank" rel="noreferrer">link</a></h5>
+                </div>
+                <div className="pro-name">
+                    <h6><a href="https://cs-notes-app.herokuapp.com/" target="_blank" rel="noreferrer">Notes</a></h6>
                 </div>
             </div>
        </div>
