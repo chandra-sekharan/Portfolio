@@ -47,9 +47,8 @@ p{
     color:#0cf1ad;
 }
 
-
-@media only screen and (max-width:1054px){
-    
+@media screen and (min-width: 705px) and (max-width: 1078px) { 
+       
     h4{
         font-size:20px !important;
     }
@@ -60,36 +59,136 @@ p{
         font-size: 40px !important;
     }
     label{
-        font-size: 13px !important;
-    }
+        font-size: 9px !important;
+    }    
 }
-@media only screen and (max-width:950px){
-   label{
-    font-size: 12px !important;
+@media only screen and (max-width:704px){
+    .main{
+     width: 100% !important;
+     overflow-y:scroll !important;
+    }
+   .menu ul{
+    width: 108%;
+    display:grid;
+    float: left !important;
+    font-size: 13px !important;
+    font-weight: bold;
+    font-family: 'Poppins' sans-serif;
    }
-}
-@media only screen and (max-width:1062px){
-     label{
-        font-size: 13px !important;
-     }
-}
-@media only screen and (max-width:1072px){
-    label{
-       font-size: 13px !important;
-    }
-}
-@media only screen and (max-width:868px){
-    label{
-       font-size: 12px !important;
-    }
-}
-@media only screen and (max-width:868px){
-    label{
-       font-size: 10px !important;
-    }
-}
-@media only screen and (max-width:744px){
-    label{
-       font-size: 10px !important;
-    }
+   .menu{
+    position: absolute !important;
+    width: 100%;
+    height: 50% !important;
+    z-index: 999;
+    transition: all 0.5s ease;
+    background-color:  rgba(167, 167, 167, 0.986);
+    opacity: 0;
+    top:-500px;
+   }
+   .change .menu {
+    top: 0px;
+    opacity: 1;
+   }
+   .menu ul li {
+    position: relative;
+    text-transform: uppercase;
+    top: 28px !important;
+    text-align: center;
+    margin-top: -50px ;
+   }
+   a{
+    color: black !important;
+   }
+   .menu ul  a:hover{
+     color: #0cf1ad!important;
+   }
+   .menu-icon{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    cursor: pointer
+   }
+   .bar1, .bar2, .bar3 {
+    width: 20px;
+    height: 3px;
+    background-color: whitesmoke;
+    margin: 4px 8px;
+    transition: 0.4s;
+    position: relative;
+    top: 15px;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-3px, 6px);
+    background-color: black;
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-2px, -8px);
+    background-color: black;
+  }
+ .content{
+    display: grid !important;
+    width: 100% !important;
+ } 
+ .title{
+    width: 100% !important;
+    position: relative;
+    left: -25px;
+    margin: auto;
+ }
+ h4,h3{
+    font-size: 24px !important;
+ }
+ .title h1{
+    color: white !important;
+     font-size: 35px !important;
+ }
+ label{
+    left: -12px;
+    font-size: 15px !important;
+ }
+ .avatar-back{
+    width: 100% !important;
+    left: 0 !important;
+ }
+ .avatar-back img{
+    position: relative;
+    width: 50%;
+    left: 40px;
+ }
+ .skill-card{
+    width: 100% !important;
+ }
+ .skill-bar{
+          width:70% !important;
+ }
+ .skill-card span{
+    position: relative;
+    top: 5px !important;
+ }
+ .project-section{
+    width: 100% !important;
+ }
+ .project-display{
+    width: 150px !important;
+    height: 55vh !important;
+    margin-left: 35px ;
+    
+ }
+
+ .project-display img{
+    width: 100% !important;
+    height: 35vh !important;
+    opacity: 1 !important;
+ }
+ .git{
+    display: none;
+ }
+ 
+ 
 }

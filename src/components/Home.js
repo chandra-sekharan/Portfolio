@@ -3,15 +3,32 @@ import profile from './images/chandu.jpeg';
 import './styles/Home.css';
 
 const Home = () => {
+    const menubar = () => {
+
+        var container = document.getElementsByClassName("container")[0];
+        container.classList.toggle("change");
+        var menu = document.getElementsByClassName("menu")[0];
+        menu.classList.toggle("change");
+      }
     return(
         <>
         <div className="container" id="home">
+         <div className='menu-icon' onClick={menubar}>
+            <div className='bar1'></div>
+            <div className='bar2'></div>
+            <div className='bar3'></div>
+         </div>
         <div className="menu">
+        <div className='menu-icon' onClick={menubar}>
+            <div className='bar1'></div>
+            <div className='bar2'></div>
+            <div className='bar3'></div>
+        </div>
             <ul>
-                <a href="#home"><li>Home</li></a>
-                <a href="#skills"><li>Skills</li></a>
-                <a href="#projects"><li>Projects</li></a>
-                <a href="#about"><li>About</li></a>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
             </ul>
         </div>
         <div className="content">
