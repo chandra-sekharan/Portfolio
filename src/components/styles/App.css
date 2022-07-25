@@ -89,7 +89,7 @@ p{
    .menu{
     position: absolute !important;
     width: 100%;
-    height: 45% !important;
+    height: 48% !important;
     z-index: 999;
     transition: all 0.5s ease;
     background-color:  rgba(167, 167, 167, 0.986);
@@ -173,7 +173,7 @@ p{
  .avatar-back img{
     position: relative;
     width: 50%;
-    top: -50px;
+    top: -73px;
     left: 40px;
  }
  .skill-card{
@@ -193,6 +193,7 @@ p{
     width: 150px !important;
     height: 55vh !important;
     margin-left: 35px ;
+    margin-top: -10px !important;
     
  }
  .project-display:hover .git{
