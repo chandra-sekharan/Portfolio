@@ -22,7 +22,7 @@
     place-content: center;
     transform: scale(0.5);
     clip-path: circle(49%);
-    animation: p 4s steps(100) infinite;
+    animation: p 2.5s steps(100) infinite;
     color: HSL(calc(var(--p)*2), 100%, 65%);
   }
   .loader:before, .loader:after {
