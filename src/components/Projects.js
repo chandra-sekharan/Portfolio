@@ -23,7 +23,7 @@ const Project = ()=>{
             <div className="project-display">
                 <img src={spotify} alt="" className="otherimages1" />
                 <div className="git">
-                    <h5>Git URL <a href="https://github.com/chandra-sekharan/spotify-react" target="_blank" rel="noreferrer">link</a></h5>
+                    <h5>Git URL <a href="https://github.com/chandra-sekharan/Spotify-react" target="_blank" rel="noreferrer">link</a></h5>
                     <h5>Deploy URL <a href="https://spotify-react-cs.herokuapp.com/" target="_blank" rel="noreferrer">link</a></h5>
                 </div>
                 <div className="pro-name">
@@ -33,7 +33,7 @@ const Project = ()=>{
             <div className="project-display">
                 <img src={weather} alt="" className="otherimages" />
                 <div className="git">
-                    <h5>Git URL <a href="https://github.com/chandra-sekharan/weatherApp" target="_blank" rel="noreferrer">link</a></h5>
+                    <h5>Git URL <a href="https://github.com/chandra-sekharan/Weather-Application" target="_blank" rel="noreferrer">link</a></h5>
                     <h5>Deploy URL <a href="https://weather-app-cs.herokuapp.com/" target="_blank" rel="noreferrer">link</a></h5>
                 </div>
                 <div className="pro-name">
@@ -43,7 +43,7 @@ const Project = ()=>{
             <div className="project-display">
                 <img src={notes} alt="" className="otherimages" />
                 <div className="git">
-                    <h5>Git URL <a href="https://github.com/chandra-sekharan/notes" target="_blank" rel="noreferrer">link</a></h5>
+                    <h5>Git URL <a href="https://github.com/chandra-sekharan/Note-Application" target="_blank" rel="noreferrer">link</a></h5>
                     <h5>Deploy URL <a href="https://cs-notes-app.herokuapp.com/" target="_blank" rel="noreferrer">link</a></h5>
                 </div>
                 <div className="pro-name">
