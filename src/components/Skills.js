@@ -1,5 +1,6 @@
 import React from "react";
 import './styles/skill.css';
+import linux from './images/linux.svg';
 
 const Skills = () =>{
     
@@ -44,7 +45,7 @@ const Skills = () =>{
                 </div>
             </div>
             <div className="skill">
-                <div className="skill-name"><img src="https://img.icons8.com/ios-filled/344/linux.png " maxWidth="30px" height="30px" alt="" /></div>
+                <div className="skill-name"><img src={linux} maxWidth="30px" height="30px" alt="" /></div>
                 <span>60%</span>
                 <div className="skill-bar">
                     <div className="skill-per" per="60%" style={{maxWidth:"60%"}}></div>
