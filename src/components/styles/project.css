@@ -24,23 +24,37 @@
 .project-section{
     position: relative;
     top: 20px;
-    width: 90%;
+    width: 95%;
     height: 80%;
     margin: auto;
     animation: project 0.4s linear;
 }
 .project-display{
     display: inline-block;
-    width: 24%;
-    height: 100%;
+    width: 19rem;
+    margin-top: 75px;
+    margin-left: 15px;
+    height: 19rem;
     overflow: hidden;
     transition: all 5s ease;
+    background:linear-gradient(to bottom , #0cf1acd5 , #000);
 }
 .project-display img{
     position: relative;
-    width: 150%;
-    height: 100%;
+    display: block;
+    margin-right: auto;
+    margin-left:auto;
+    margin-top: 10px;
+    width: 60px !important;
+    height: 60px;
+    border-radius: 50px;
+    border: 2px solid white;
     opacity: 0.5;
+}
+
+.project-display p{
+    margin-top: 15px;
+    font-size: 17px;
 }
 .otherimages1{
     position: relative;
@@ -57,7 +71,7 @@ img:hover{
    
 }
 .project-display:hover .git{
-    margin-top: -63px;
+    margin-top: 170px;
     display: flex;
 }
 .git{
@@ -83,4 +97,9 @@ img:hover{
 .git h5 a{
     margin-left: 5px;
     color: #0cf1ac;
+}
+.project-display h6 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
 }

@@ -192,18 +192,15 @@ p{
  .project-display{
     width: 150px !important;
     height: 55vh !important;
-    margin-left: 35px ;
+    margin-left: 35px !important;
     margin-top: -10px !important;
     
  }
  .project-display:hover .git{
         display: none !important;
  }
- .project-display img{
-    width: 100% !important;
-    height: 35vh !important;
-    opacity: 1 !important;
- }
+ 
+ 
  .git{
     display: none;
  }
@@ -218,19 +215,26 @@ p{
  .About p span{
    color: #0cf1ad !important;
  }
- h6{
-   line-height: 50px !important;
+ .pro-name h6{
+   margin-top: 10px !important;
    font-size: 20px;
    text-align: center;
    color: white;
  }
- h6 a {
+ .pro-name h6 a {
    text-decoration: none;
    color: white !important;
  }
  .pro-name{
-   height: 50px;
+   position: relative;
+   width: auto !important;
+   padding: 10px !important;
+   height: auto;
    border: 1px solid white;
    border-radius: 6px ;
  }
+ .discript {
+   height: 210px;
+}
+ 
 }
