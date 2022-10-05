@@ -188,6 +188,7 @@ p{
  }
  .project-section{
     width: 100% !important;
+    display:block !important;
  }
  .project-display{
     width: 150px !important;
