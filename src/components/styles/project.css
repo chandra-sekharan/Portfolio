@@ -27,7 +27,7 @@
     width: 95%;
     height: 80%;
     margin: auto;
-    animation: project 0.4s linear;
+    display: flex ;
 }
 .project-display{
     display: inline-block;
@@ -36,7 +36,6 @@
     margin-left: 15px;
     height: 19rem;
     overflow: hidden;
-    transition: all 5s ease;
     background:linear-gradient(to bottom , #0cf1acd5 , #000);
 }
 .project-display img{
