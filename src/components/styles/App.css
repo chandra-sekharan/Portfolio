@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  sans-serif;
+    text-decoration: none;
+}
+body{
+    background-color: #d9d9d9;
+    scroll-behavior:smooth;
+    overflow: auto;
+}
+
+/*************main*************/
+.main{
+    position: fixed;
+    width: 100%;
+    height:100%;
+    overflow-y:auto;
+    background-color: black;
+    scroll-behavior:smooth;
+  }
+  .main::-webkit-scrollbar{
+    display: none;
+  }
+  
+/*****************About section***************/
+.About{
+   width: 100%;
+   padding-bottom: 150px;
+   background-color: black;
+   
+}
+.About h1{
+    position: relative;
+    color:#0cf1ac;
+    text-align: center;
+    line-height: 200px;
+}
+
+p{
+    font-size: 25px;
+    font-weight: bold;
+    font-style:italic;
+    font-family: 'Poppins' sans-serif;
+    color: white;
+    text-align: center;
+}
+.para p span{
+    color:#0cf1ad;
+}
+
+/* Media queries for responsive */
+
+@media screen and (min-width: 705px) and (max-width: 1078px) { 
+       
+    h4{
+        font-size:20px !important;
+    }
+    h3{
+        font-size: 23px !important;
+    }
+    .title h1{
+        font-size: 40px !important;
+    }
+    label{
+        font-size: 9px !important;
+    }    
+}
+@media only screen and (max-width:704px){
+   .container{
+      width: 100% !important;
+   } 
+   .main{
+     width: 100% !important;
+     overflow: auto !important;
+    }
+    .main::-webkit-scrollbar{
+        display: none;
+      }
+   .menu ul{
+    position: relative;
+    top: 20px;
+    left: 0px !important;
+    width: 100%;
+    padding-bottom:25px ;
+    display:grid;
+    float: left !important;
+    font-size: 13px !important;
+    font-weight: bold;
+    font-family: 'Poppins' sans-serif;
+   }
+   .menu{
+    position: absolute !important;
+    width: 100%;
+    height: 48% !important;
+    z-index: 999;
+    transition: all 0.5s ease;
+    background-color:  rgba(167, 167, 167, 0.986);
+    opacity: 0;
+    top:-500px;
+   }
+   .change .menu {
+    top: 0px;
+    opacity: 1;
+   }
+   .menu ul li {
+    position: relative;
+    text-transform: uppercase;
+    top: 5px !important;
+    text-align: center;
+    margin-top: -10px ;
+    margin-left: -20px !important;
+    height: 80px !important;
+   }
+   a{
+    color: black !important;
+   }
+   .menu ul  a:hover{
+     color: #0cf1ad!important;
+   }
+   .menu-icon{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    cursor: pointer
+   }
+   .bar1, .bar2, .bar3 {
+    width: 20px;
+    height: 3px;
+    background-color: whitesmoke;
+    margin: 4px 8px;
+    transition: 0.4s;
+    position: relative;
+    top: 15px;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-3px, 6px);
+    background-color: black;
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-2px, -8px);
+    background-color: black;
+  }
+ .content{
+    display: grid !important;
+    width: 100% !important;
+ } 
+ .title{
+    width: 98% !important;
+    padding: 0px !important;
+ }
+ .section_inform{
+   
+ }
+ 
+ h4,h3{
+    font-size: 24px !important;
+ }
+ .title h1{
+     color: white !important;
+     font-size: 35px !important;
+     width: 96% !important;
+    
+ }
+ .section_inform label{
+    padding: 10px !important;
+    
+    font-size: 15px !important;
+ }
+ .avatar-back{
+    
+    
+    left: 0 !important;
+ }
+ .avatar-back img{
+    width: 50%;
+    
+ }
+
+ .skills{
+    
+ }
+ .skill-card{
+    margin-left: 0 !important;
+    width: 90% !important;
+
+ }
+ .skill-bar{
+          width:70% !important;
+ }
+ .skill-card span{
+    position: relative;
+    top: 5px !important;
+ }
+ .project-section{
+    width: 100% !important;
+    display:flex !important;
+    flex-wrap: wrap;
+    row-gap: 50px;
+ }
+ .project-display{
+    width: 150px !important;
+    padding-bottom: 90px;
+    
+ }
+ .project-display:hover .git{
+        display: none !important;
+ }
+ 
+ 
+ .git{
+    display: none;
+ }
+ .About{
+    position: relative;
+    top: 100px !important;
+ }
+ .About p{
+   font-size: 23px ;
+   font-weight: 500;
+ }
+ .About p span{
+   color: #0cf1ad !important;
+ }
+ .pro-name h6{
+   margin-top: 10px !important;
+   font-size: 20px;
+   text-align: center;
+   color: white;
+ }
+ .pro-name h6 a {
+   text-decoration: none;
+   color: white !important;
+ }
+ .pro-name{
+   position: relative;
+   width: auto !important;
+   padding: 10px !important;
+   height: auto;
+   border: 1px solid white;
+   border-radius: 6px ;
+ }
+ .discript {
+   height: 210px;
+}
+ 
+}
