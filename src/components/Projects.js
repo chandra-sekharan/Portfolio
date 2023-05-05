@@ -2,8 +2,8 @@ import React from "react";
 import './styles/project.css';
 import movielogo from './images/movieflix.png';
 import spotify from './images/spotify.png';
-import weather from './images/weather.png';
-import notes from './images/notes.png';
+import calculator from './images/calculator.png';
+import notes from './images/note.png';
 
 const Project = ()=>{
     return(
@@ -30,7 +30,7 @@ const Project = ()=>{
                 </div>
             </div>
             <div className="project-display">
-            <a href="https://calculator-cs.netlify.app/" target="_blank" rel="noreferrer"><img src={weather} alt="" className="otherimages" /></a>
+            <a href="https://calculator-cs.netlify.app/" target="_blank" rel="noreferrer"><img src={calculator} alt="" className="otherimages" /></a>
                 
                 <div className="discript">
                 <p>This is a Calculator React Application made using React</p>
